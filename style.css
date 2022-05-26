@@ -113,10 +113,18 @@ picture {
   left: 43%;
   cursor: pointer;
 }
+.rolldice {
+  animation: rollDice 4s linear 1 normal;
+}
+@keyframes rollDice {
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
-  
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
